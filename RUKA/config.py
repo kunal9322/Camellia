@@ -12,26 +12,26 @@ class Config(object):
     # REQUIRED
 
     # Login to https://my.telegram.org and fill in these slots with the details given by it
-    API_ID = 13600724
-    API_HASH = "ee59fd28d0d065c6b7d105082c6a0ba0"
+    API_ID = 19099900
+    API_HASH = "2b445de78e5baf012a0793e60bd4fbf5"
 
     TOKEN = os.environ.get("Token", "")  # BOT TOKEN, get it from @botfather
-    OWNER_ID = "5030730429"  # If you dont know, run @KAZUMABOT and send /id
-    OWNER_USERNAME = "Ishikki_AKABANE" #OWNER Username without @
+    OWNER_ID = "6299128233"  # If you dont know, run @KAZUMABOT and send /id
+    OWNER_USERNAME = "SexyNano" #OWNER Username without @
 
-    SUPPORT_CHAT = "DevsLAB"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "MissCamelliaUpdate"  # Your own group for support, do not add the @
     SUPPORT_ID = -1001856564943 # Your support group's id
     JOIN_LOGGER = -1001856564943  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = -1001856564943  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging
     ERROR_LOGS = -1001552477173  # Prints error info
-    UPDATES_CHANNEL = "UpdatesXD" #Channel where they can read about new updates about the bot
+    UPDATES_CHANNEL = "MissCamelliaUpdate" #Channel where they can read about new updates about the bot
     TEMP_DOWNLOAD_DIRECTORY = "./"
     WORKERS = 8 # Number of subthreads to use. Set as number of threads your processor uses
     ALLOW_EXCL = True
     # For ARQ based Modules, use public ARQ KEY if you dont have provided by @ISHIKKI_AKABANE
     ARQ_API_KEY = "ZWXCEZ-RTVXHT-NOVURC-FHCFZD-ARQ"
     # For SPAMWATCH ANTISPAM SYSTEM, USE PUBLIC ONE IF YOU DONT HAVE
-    SPAMWATCH_SUPPORT_CHAT = "@DEVSLAB"
+    SPAMWATCH_SUPPORT_CHAT = "@MissCamelliaUpdate"
     SPAMWATCH_API = "XChWQMRDLpKVqoirR_cMDqlrGwiTn1bY1pYhTyGeVv7~T2gVG1JRyZFvlZGq4gtG"
 
     # Important for webhooks
