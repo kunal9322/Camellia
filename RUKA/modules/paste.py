@@ -75,7 +75,7 @@ async def paste_func(update: Update, context: ContextTypes.DEFAULT_TYPE):
             pass
 
     await msg.edit_text(
-        text="Your file is pasted on ezup.dev!\nBy: @Ishikki",
+        text="Your file is pasted on ezup.dev!\nBy: Me",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
