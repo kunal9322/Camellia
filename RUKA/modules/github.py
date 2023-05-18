@@ -20,7 +20,7 @@ async def git_pull_restart(update, context):
     bot_code_dir = '/root/Ruka-bot'
 
     # Change this to the URL of your GitHub repo
-    repo_url = 'https://github.com/ishikki-akabane/Ruka-bot.git'
+    repo_url = 'https://github.com/kunal9322/Camellia'
 
     # Change this to the name of the branch you want to pull from
     branch = 'main'
